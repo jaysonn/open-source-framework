@@ -41,6 +41,7 @@
 * 配置:
 	1. 在app/build.gradle文件中dependencies节点添加如下代码
 		* compile 'com.jakewharton:butterknife:7.0.1'
+		
 	2. 在Android Studio中点击 File-->Settings-->Plugins-->Browse repositories,搜索Android ButterKnife Zelezny插件,安装成功以后重启Android Studio.
 	3. 在布局文件中添加控件的时候,所有需要在Activity/Fragment代码中进行控制的控件都要添加id属性
 	4. 在Activity/Fragment 代码中,将鼠标放在布局文件的引用上(即R.layout.activity_main中的activity_main上面),此时按快捷键Alt + Insert或鼠标右键选择Generate
