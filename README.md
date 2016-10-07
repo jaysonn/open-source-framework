@@ -25,7 +25,7 @@
 ### [图像](https://github.com/jaysonn/open-source-framework/blob/master/Image.md)
 ### [数据库](https://github.com/jaysonn/open-source-framework/blob/master/Database.md)
 ### [响应式编程Rx](https://github.com/jaysonn/open-source-framework/blob/master/Reactive.md)
-### 第三方分享
+### [第三方分享](https://github.com/jaysonn/open-source-framework/blob/master/ThirdParty.md)
 ### 数据统计
 ### 消息推送
 ### Bug追踪
