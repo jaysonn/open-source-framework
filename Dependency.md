@@ -69,7 +69,7 @@
 				classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
 				mavenCentral()
 				mavenLocal()
-		![](leanote://file/getImage?fileId=57dba945318622563b000008)
+		![image](https://github.com/jaysonn/open-source-framework/edit/master/picture/57dba945318622563b000008.png)
 	2. 在app/build.gradle 文件中按下图所示添加代码:
 
 				apply plugin: 'android-apt'
