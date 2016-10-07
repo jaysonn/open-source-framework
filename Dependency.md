@@ -69,7 +69,8 @@
 				classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
 				mavenCentral()
 				mavenLocal()
-		![image](https://github.com/jaysonn/open-source-framework/edit/master/picture/57dba945318622563b000008.png)
+![image](https://github.com/jaysonn/open-source-framework/blob/master/picture/57dba945318622563b000008.png)
+
 	2. 在app/build.gradle 文件中按下图所示添加代码:
 
 				apply plugin: 'android-apt'
@@ -80,7 +81,7 @@
 				}
 				apt "org.androidannotations:androidannotations:4.0.0"
 				compile "org.androidannotations:androidannotations-api:4.0.0"
-		![](leanote://file/getImage?fileId=57dba94f318622563b000009)			
+![image](https://github.com/jaysonn/open-source-framework/blob/master/picture/57dba94f318622563b000009.png)			
 
 * 注意事项:
 
@@ -102,14 +103,14 @@
   
 * 配置:
 	1. 在project/build.gradle 文件中按下图所示添加代码:  classpath 'com.neenbedankt.gradle.plugins:android-apt:1.8'
-	![](leanote://file/getImage?fileId=57dba759318622563b000000)
+![image](https://github.com/jaysonn/open-source-framework/blob/master/picture/57dba759318622563b000000.png)
 	2. 在app/build.gradle 文件中按下图所示添加代码:
 	
 			* apply plugin: 'com.neenbedankt.android-apt'
 			* compile 'com.google.dagger:dagger:2.2'
         	* apt 'com.google.dagger:dagger-compiler:2.2'
         	* provided 'org.glassfish:javax.annotation:10.0-b28'
-	![](leanote://file/getImage?fileId=57dba79a318622563b000001)
+![image](https://github.com/jaysonn/open-source-framework/blob/master/picture/57dba79a318622563b000001.png)
 
 * 主要的注解:
 	* @Provides: 用来修饰方法，方法的返回类型就是所提供的依赖类型，可以简单的把方法的返回值理解为我们通常要new出来的对象.
